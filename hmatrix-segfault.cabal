@@ -12,9 +12,3 @@ library
     exposed-modules:    Internal.Vectorized
     c-sources:          src/Internal/C/vector-aux.c
     cc-options:         -O4
-
-executable hmatrix-segfault
-    main-is:            Main.hs
-    build-depends:      base, hmatrix-segfault, vector
-    hs-source-dirs:     exe
-    ghc-options:        -Wall
